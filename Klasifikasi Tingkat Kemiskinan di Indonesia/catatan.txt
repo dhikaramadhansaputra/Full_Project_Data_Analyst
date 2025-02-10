@@ -1,6 +1,7 @@
+Data collecting :
 Link dataset from kaggle = https://www.kaggle.com/datasets/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia
-
-Hal-hal yang dilakukan (Pre-processing) :
+==========================================================================
+Pre-processing (Hal-hal yang dilakukan) :
 1. identifikasi null values di setiap kolom = ada 485 null values pada tiap kolom
 2. Mengecek kolom 'Klasifikasi Kemiskinan' = tipe data float, padahal valuesnya cuma 0 dan 1 (harusnya boolean) - (udah dibenerin jadi boolean)
 3. Membuang 485 rows yang semua kolomnya berisi null values = tadinya 999 data sekarang jadi 514
@@ -9,3 +10,16 @@ Hal-hal yang dilakukan (Pre-processing) :
    - kolom 'Rata-rata Lama Sekolah Penduduk 15+ (Tahun)'
    - Pengeluaran per Kapita Disesuaikan (Ribu Rupiah/Orang/Tahun)
 5. Import data as CSV sebagai 'data clean.csv'
+==========================================================================
+Brainstorming visualisasi :
+1. Variabel sosial-ekonomi dengan kemiskinan :
+   - apakah tingkat pendidikan mempengaruhi kategori kemiskinan?
+   - bagaimana pengaruh besarnya pengangguran terhadap finalisasi pengkategorian kemiskinan?
+   - apakah akses sanitasi dan air minum yang layak mempengaruhi kemiskinan? kalau iya, seberapa besar?
+2. Faktor ekonomi : 
+   - apakah pendapatan per-kapita berkorelasi dengan tingkat kemiskinan?
+   - apakah indeks pembangunan manusia (IPM) yang rendah cenderung memiliki tingkat kemiskinan yang tinggi?
+3. Distribusi dan pola kemiskinan :
+   - bagaimana distribusi presentasi penduduk miskin di seluruh daerah? (histogram/boxplot)
+   - peta kemiskinan berdasarkan provinsi (biar tau provinsi mana yang punya daerah miskin terbanyak)
+   - apakah ada pola kemiskinan berdasarkan PDRB per kapita? (scatter/heatmap)
