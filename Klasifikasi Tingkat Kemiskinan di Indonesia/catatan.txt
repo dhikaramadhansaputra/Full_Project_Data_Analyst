@@ -1,0 +1,11 @@
+Link dataset from kaggle = https://www.kaggle.com/datasets/ermila/klasifikasi-tingkat-kemiskinan-di-indonesia
+
+Hal-hal yang dilakukan (Pre-processing) :
+1. identifikasi null values di setiap kolom = ada 485 null values pada tiap kolom
+2. Mengecek kolom 'Klasifikasi Kemiskinan' = tipe data float, padahal valuesnya cuma 0 dan 1 (harusnya boolean) - (udah dibenerin jadi boolean)
+3. Membuang 485 rows yang semua kolomnya berisi null values = tadinya 999 data sekarang jadi 514
+4. Melakukan pembulatan dan pengubahan tipe data menjadi integer pada :
+   - kolom 'Umur Harapan Hidup (Tahun)'
+   - kolom 'Rata-rata Lama Sekolah Penduduk 15+ (Tahun)'
+   - Pengeluaran per Kapita Disesuaikan (Ribu Rupiah/Orang/Tahun)
+5. Import data as CSV sebagai 'data clean.csv'

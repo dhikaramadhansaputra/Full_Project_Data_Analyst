@@ -1,2 +1,0 @@
-Hal-hal yang dilakukan (Data cleaning) :
-1. identifikasi null values di setiap kolom
