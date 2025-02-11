@@ -20,7 +20,7 @@ Pre-processing (Hal-hal yang dilakukan) :
    - Tingkat Partisipasi Angkatan Kerja
 ==========================================================================
 Brainstorming visualisasi :
-1. Variabel sosial-ekonomi dengan kemiskinan :
+1. Variabel sosial-ekonomi dengan kemiskinan : (DONE)
    - apakah tingkat pendidikan mempengaruhi kategori kemiskinan?
    - bagaimana pengaruh besarnya pengangguran terhadap finalisasi pengkategorian kemiskinan?
    - apakah akses sanitasi dan air minum yang layak mempengaruhi kemiskinan? kalau iya, seberapa besar?
@@ -34,8 +34,15 @@ Brainstorming visualisasi :
 ==========================================================================
 Visualisasi (Hal-hal yang dilakukan) :
 1. Import dan cek data ulang
-2. Data Modelling :
-   - setting rata-rata lama sekolah penduduk (Sum) ke (average)
-   - setting umur harapan hidup (sum) ke (average)
-   - setting pengeluaran perkapita (sum) ke (average)
-   - 
+2. Data Modelling (mengubah sum ke average) :
+   - rata-rata lama sekolah penduduk (done)
+   - umur harapan hidup (done)
+   - pengeluaran perkapita (done)
+   - Indeks pembangunan manusia (done)
+   - Persentase rumah tangga yang memiliki akses terhadap air minum yang layak (done)
+   - Persentase rumah tangga yang memiliki akses terhadap sanitasi yang layak (done)
+   - tingkat pengangguran terbuka (done)
+   - tingkat partisipasi Angkatan kerja (done)
+   - PRDB (done)
+   - Persentase penduduk miskin (done)
+3. Realisasi hasil brainstorming (Aspek sosial)
