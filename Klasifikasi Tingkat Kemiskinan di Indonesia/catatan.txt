@@ -10,6 +10,14 @@ Pre-processing (Hal-hal yang dilakukan) :
    - kolom 'Rata-rata Lama Sekolah Penduduk 15+ (Tahun)'
    - Pengeluaran per Kapita Disesuaikan (Ribu Rupiah/Orang/Tahun)
 5. Import data as CSV sebagai 'data clean.csv'
+## Ternyata ada yang ketinggalan
+6. mengubah tipe data dari object (string) menjadi float pada kolom :
+   - Persentase Penduduk Miskin (P0) Menurut Kabupaten/Kota (Persen)
+   - Persentase rumah tangga yang memiliki akses terhadap sanitasi layak
+   - Persentase rumah tangga yang memiliki akses terhadap air minum layak
+   - Indeks Pembangunan Manusia
+   - Tingkat Pengangguran Terbuka
+   - Tingkat Partisipasi Angkatan Kerja
 ==========================================================================
 Brainstorming visualisasi :
 1. Variabel sosial-ekonomi dengan kemiskinan :
@@ -23,3 +31,11 @@ Brainstorming visualisasi :
    - bagaimana distribusi presentasi penduduk miskin di seluruh daerah? (histogram/boxplot)
    - peta kemiskinan berdasarkan provinsi (biar tau provinsi mana yang punya daerah miskin terbanyak)
    - apakah ada pola kemiskinan berdasarkan PDRB per kapita? (scatter/heatmap)
+==========================================================================
+Visualisasi (Hal-hal yang dilakukan) :
+1. Import dan cek data ulang
+2. Data Modelling :
+   - setting rata-rata lama sekolah penduduk (Sum) ke (average)
+   - setting umur harapan hidup (sum) ke (average)
+   - setting pengeluaran perkapita (sum) ke (average)
+   - 
