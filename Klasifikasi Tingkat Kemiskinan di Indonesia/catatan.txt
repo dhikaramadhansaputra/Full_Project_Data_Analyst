@@ -24,8 +24,8 @@ Brainstorming visualisasi :
    - apakah tingkat pendidikan mempengaruhi kategori kemiskinan?
    - bagaimana pengaruh besarnya pengangguran terhadap finalisasi pengkategorian kemiskinan?
    - apakah akses sanitasi dan air minum yang layak mempengaruhi kemiskinan? kalau iya, seberapa besar?
-2. Faktor ekonomi : 
-   - apakah pendapatan per-kapita berkorelasi dengan tingkat kemiskinan?
+2. Faktor ekonomi : (DONE)
+   - apakah pendapatan per-kapita berkorelasi dengan tingkat kemiskinan?	
    - apakah indeks pembangunan manusia (IPM) yang rendah cenderung memiliki tingkat kemiskinan yang tinggi?
 3. Distribusi dan pola kemiskinan :
    - bagaimana distribusi presentasi penduduk miskin di seluruh daerah? (histogram/boxplot)
@@ -46,3 +46,5 @@ Visualisasi (Hal-hal yang dilakukan) :
    - PRDB (done)
    - Persentase penduduk miskin (done)
 3. Realisasi hasil brainstorming (Aspek sosial)
+4. Realisasi hasil brainstorming (Aspek Ekonomi)
+5. 
