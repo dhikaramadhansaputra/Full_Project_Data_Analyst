@@ -1,5 +1,5 @@
 # Klasifikasi Kemiskinan di Indonesia
-![Header](asset/header.jpg)
+![Header](asset/header.jpg) <br>
 Seperti yang kita tahu, Indonesia adalah negara kepulauan yang memiliki 284.889.720 jiwa penduduk (Februari 2025) dengan keberagaman kondisi sosial dan ekonomi di setiap wilayah. Saya memulai project ini dengan tujuan membuat analisis dan visualisasi pengaruh faktor ekonomi, sosial dan distribusi kemiskinan terhadap hasil akhir suatu daerah di Indonesia dikatakan miskin tidaknya.
 
 ### Langkah-langkah project
