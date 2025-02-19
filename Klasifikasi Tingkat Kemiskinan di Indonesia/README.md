@@ -67,3 +67,22 @@ ___
 ![tipe_data(raw)](asset/tipe_data(raw).png) <br> ![tipe_data(clean)](asset/tipe_data(clean).png)
 ___
 ## Analisis & Visualisasi
+Pada proses analisis dan visualisasi ini saya menggunakan Microsoft Power BI sebagai alat saya. Sayangnya pada tahap ini saya tidak bisa melakukan yang terbaik karena saya tidak bisa menggunakan jenis visualisasi 'map' dan 'filled map' (karena dari pihak kampus belum melakukan enable pada email universitas saya untuk fitur tersebut).
+
+#### Brainstorming visualisasi
+Pada tahap ini, saya tidak asal klik sana sini dengan berharap menemukan visualisasi terbaik, tetapi saya melakukan listing apa saja yang ingin dianalisa. berikut ini adalah hasil brainstorming visualisasi saya :
+- Variabel sosial dengan kemiskinan :
+   - apakah tingkat pendidikan mempengaruhi kategori kemiskinan?
+   - bagaimana pengaruh besarnya pengangguran terhadap finalisasi pengkategorian kemiskinan?
+   - apakah akses sanitasi dan air minum yang layak mempengaruhi kemiskinan? kalau iya, seberapa besar?
+- Faktor ekonomi :
+   - apakah pendapatan per-kapita berkorelasi dengan tingkat kemiskinan?	
+   - apakah indeks pembangunan manusia (IPM) yang rendah cenderung memiliki tingkat kemiskinan yang tinggi?
+- Distribusi dan pola kemiskinan :
+   - bagaimana distribusi presentasi penduduk miskin di seluruh daerah?
+   - peta kemiskinan berdasarkan provinsi (biar tau provinsi mana yang punya daerah miskin terbanyak)
+   - apakah ada pola kemiskinan berdasarkan PDRB per kapita?
+
+#### Analisis dan visualisai (faktor sosial)
+#### Analisis dan visualisai (faktor ekonomi)
+#### Analisis dan visualisai (distribusi dan pola kemiskinan)
