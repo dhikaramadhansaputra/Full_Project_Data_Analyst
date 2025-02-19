@@ -55,8 +55,8 @@ Pada langkah data pre-processing ini saya melakukan berbagai kegiatan, antara la
    - Tingkat Pengangguran Terbuka
    - Tingkat Partisipasi Angkatan Kerja
 - Mengimport data yang sudah di pre-processing (biasa disebut load dalam proses ETL) sebagai file csv (data clean.csv)
-
-#### Beberapa dokumentasi selama pre-processing (sisanya bisa di lihat di file 'data pre-processing.ipynb')
+___ 
+#### Beberapa dokumentasi selama pre-processing (sisanya bisa dilihat pada file 'data pre-processing.ipynb')
 - Null values sebelum di cleaning (kiri/atas) dan sesudah di cleaning (kanan-/bawah)
 ![null_values(raw)](asset/null_values(raw).png) ![null_values(clean)](asset/null_values(clean).png)
 
@@ -64,5 +64,6 @@ Pada langkah data pre-processing ini saya melakukan berbagai kegiatan, antara la
 ![jumlah_rows(raw)](asset/jumlah_rows(raw).png) ![jumlah_rows(clean)](asset/jumlah_rows(clean).png)
 
 - Mengganti tipe data yang salah
-
-lanjut besok gaes
+![tipe_data(raw)](asset/tipe_data(raw).png) ![tipe_data(clean)](asset/tipe_data(clean).png)
+___
+## Analisis & Visualisasi
