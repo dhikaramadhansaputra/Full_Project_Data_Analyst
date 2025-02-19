@@ -58,12 +58,12 @@ Pada langkah data pre-processing ini saya melakukan berbagai kegiatan, antara la
 ___ 
 #### Beberapa dokumentasi selama pre-processing (sisanya bisa dilihat pada file 'data pre-processing.ipynb')
 - Null values sebelum di cleaning (kiri/atas) dan sesudah di cleaning (kanan-/bawah)
-![null_values(raw)](asset/null_values(raw).png) ![null_values(clean)](asset/null_values(clean).png)
+![null_values(raw)](asset/null_values(raw).png) <br> ![null_values(clean)](asset/null_values(clean).png)
 
 - Membuang 458 rows yang isinya hanya null values
-![jumlah_rows(raw)](asset/jumlah_rows(raw).png) ![jumlah_rows(clean)](asset/jumlah_rows(clean).png)
+![jumlah_rows(raw)](asset/jumlah_rows(raw).png) <br> ![jumlah_rows(clean)](asset/jumlah_rows(clean).png)
 
 - Mengganti tipe data yang salah
-![tipe_data(raw)](asset/tipe_data(raw).png) ![tipe_data(clean)](asset/tipe_data(clean).png)
+![tipe_data(raw)](asset/tipe_data(raw).png) <br> ![tipe_data(clean)](asset/tipe_data(clean).png)
 ___
 ## Analisis & Visualisasi
