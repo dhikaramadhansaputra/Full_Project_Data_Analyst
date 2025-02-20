@@ -89,7 +89,7 @@ Sesuai brainstorming yang sudah saya lakukan di tahap sebelumnya, pada analisis 
 [Klik disini untuk melihat visualisasi (faktor sosial)](hasil_visualisasi/faktor_sosial.pdf)
 
 #### berikut ini adalah hasil analisis faktor sosial :
-- ss
+- pppppp
 
 ___
 #### Analisis dan visualisai (faktor ekonomi)
@@ -98,13 +98,17 @@ Di dalam analisis dan visualisasi faktor ekonomi ini saya berfokus kepada bebera
 [Klik disini untuk melihat visualisasi (faktor ekonomi)](hasil_visualisasi/faktor_ekonomi.pdf)
 
 #### berikut ini adalah hasil analisis faktor ekonomi :
-- ss
+- pppp
 ___
 #### Analisis dan visualisai (distribusi dan pola kemiskinan)
 Pada analisis dan visualisasi distribusi dan pola kemiskinan ini saya tidak sepenuhnya menerapakan apa yang telah saya brainstorming sebelumnya (dikarenakan keterbatasn fitur pada email Universitas saya). Saya berfokus pada distribusi penduduk miskin dan pola kemiskinan berdasarkan PRDB sekaligus persentase penduduk miskin
 
-[klik disini untuk melihat visualisasi (distribusi dan pola kemiskinan berdasarkan PRDB)](hasil_visualisasi/distribusi_dan_pola_kemiskinan.pdf)
+[klik disini untuk melihat visualisasi (distribusi dan pola kemiskinan berdasarkan PRDB)](hasil_visualisasi/distribusi_dan_pola_kemiskinan_berdasarkan_PRDB.pdf)
 
-#### berikut ini adalah hasil analisis distribusi dan pola kemiskinan :
-- ss
+#### Berikut ini adalah hasil analisis distribusi dan pola kemiskinan :
+- Peringkat persebaran persentase penduduk miskin dapat dilihat pada sisi kiri
+-  Terdapat pola kemiskinan pada visualisasi tabel, yaitu :
+   - Daerah yang dikategorikan sebagai TIDAK MISKIN (False), cenderung memiliki persentase penduduk miskin lebih rendah dari pada daerah yang dikategorikan sebagai MISKIN (True)
+   - PRDB (Produk Domestik Regional Bruto) di daerah yang dikategorikan sebagai TIDAK MISKIN (False) memiliki total nilai yang jauh lebih banyak dari pada PRDB di daerah yang dikategorikan MISKIN (True)
+`
 ___
