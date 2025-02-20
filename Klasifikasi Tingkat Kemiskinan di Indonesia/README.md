@@ -57,13 +57,13 @@ Pada langkah data pre-processing ini saya melakukan berbagai kegiatan, antara la
 - Mengimport data yang sudah di pre-processing (biasa disebut load dalam proses ETL) sebagai file csv (data clean.csv)
 ___ 
 #### Beberapa dokumentasi selama pre-processing (sisanya bisa dilihat pada file 'data pre-processing.ipynb')
-- Null values sebelum di cleaning (kiri/atas) dan sesudah di cleaning (kanan-/bawah)
+- Null values sebelum di cleaning (atas) dan sesudah di cleaning (bawah) <br>
 ![null_values(raw)](asset/null_values(raw).png) <br> ![null_values(clean)](asset/null_values(clean).png)
 
-- Membuang 458 rows yang isinya hanya null values
+- Membuang 458 rows yang isinya hanya null values <br>
 ![jumlah_rows(raw)](asset/jumlah_rows(raw).png) <br> ![jumlah_rows(clean)](asset/jumlah_rows(clean).png)
 
-- Mengganti tipe data yang salah
+- Mengganti tipe data yang salah <br>
 ![tipe_data(raw)](asset/tipe_data(raw).png) <br> ![tipe_data(clean)](asset/tipe_data(clean).png)
 ___
 ## Analisis & Visualisasi
@@ -82,7 +82,14 @@ Pada tahap ini, saya tidak asal klik sana sini dengan berharap menemukan visuali
    - bagaimana distribusi presentasi penduduk miskin di seluruh daerah?
    - peta kemiskinan berdasarkan provinsi (biar tau provinsi mana yang punya daerah miskin terbanyak)
    - apakah ada pola kemiskinan berdasarkan PDRB per kapita?
-
+___
 #### Analisis dan visualisai (faktor sosial)
+Sesuai brainstorming yang sudah saya lakukan di tahap sebelumnya, pada analisis dan visualisai faktor sosial ini saya berfokus pada aspek pendidikan (rata-rata lama sekolah penduduk yang berusia 15 tahun ke-atas), aspek besarnya penganggurran, aspek akses sanitasi dan air minum
+
+[klik disini untuk melihat visualisasi](asset/faktor_sosial.pdf)
+___
 #### Analisis dan visualisai (faktor ekonomi)
+Di dalam analisis dan visualisasi faktor ekonomi ini saya berfokus kepada beberapa aspek, antara lain: pendapatan per-kapita dan aspek pembangunan manusia (IPM)
+___
 #### Analisis dan visualisai (distribusi dan pola kemiskinan)
+___
