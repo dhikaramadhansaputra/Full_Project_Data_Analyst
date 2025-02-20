@@ -86,10 +86,25 @@ ___
 #### Analisis dan visualisai (faktor sosial)
 Sesuai brainstorming yang sudah saya lakukan di tahap sebelumnya, pada analisis dan visualisai faktor sosial ini saya berfokus pada aspek pendidikan (rata-rata lama sekolah penduduk yang berusia 15 tahun ke-atas), aspek besarnya penganggurran, aspek akses sanitasi dan air minum
 
-[klik disini untuk melihat visualisasi](asset/faktor_sosial.pdf)
+[Klik disini untuk melihat visualisasi (faktor sosial)](hasil_visualisasi/faktor_sosial.pdf)
+
+#### berikut ini adalah hasil analisis faktor sosial :
+- ss
+
 ___
 #### Analisis dan visualisai (faktor ekonomi)
-Di dalam analisis dan visualisasi faktor ekonomi ini saya berfokus kepada beberapa aspek, antara lain: pendapatan per-kapita dan aspek pembangunan manusia (IPM)
+Di dalam analisis dan visualisasi faktor ekonomi ini saya berfokus kepada beberapa aspek seperti yang sudah saya paparkan pada waktu brainstorming, antara lain: pendapatan per-kapita dan aspek pembangunan manusia (IPM)
+
+[Klik disini untuk melihat visualisasi (faktor ekonomi)](hasil_visualisasi/faktor_ekonomi.pdf)
+
+#### berikut ini adalah hasil analisis faktor ekonomi :
+- ss
 ___
 #### Analisis dan visualisai (distribusi dan pola kemiskinan)
+Pada analisis dan visualisasi distribusi dan pola kemiskinan ini saya tidak sepenuhnya menerapakan apa yang telah saya brainstorming sebelumnya (dikarenakan keterbatasn fitur pada email Universitas saya). Saya berfokus pada distribusi penduduk miskin dan pola kemiskinan berdasarkan PRDB sekaligus persentase penduduk miskin
+
+[klik disini untuk melihat visualisasi (distribusi dan pola kemiskinan berdasarkan PRDB)](hasil_visualisasi/distribusi_dan_pola_kemiskinan.pdf)
+
+#### berikut ini adalah hasil analisis distribusi dan pola kemiskinan :
+- ss
 ___
