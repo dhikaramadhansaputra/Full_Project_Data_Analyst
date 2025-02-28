@@ -89,7 +89,9 @@ Sesuai brainstorming yang sudah saya lakukan di tahap sebelumnya, pada analisis 
 [Klik disini untuk melihat visualisasi (faktor sosial)](hasil_visualisasi/faktor_sosial.pdf)
 
 #### berikut ini adalah hasil analisis faktor sosial :
-- pppppp
+- Tingkat pendidikan sangat mempengaruhi hasil akhir suatu daerah dikatakan miskin tidaknya. Terbukti pada tingkat pendidikan kurang dari 5 tahun tidak ada daerah yang TIDAK MISKIN, sedangkan pada 5 tahun ke atas, lebih banyak daerah yang dikategorikan TIDAK MISKIN
+- Tingkat Pengangguran Terbuka (TPT) tidak memiliki pola khusus, ini membuktikan TPT tidak langsung mempengaruhi hasil akhirs
+- Akses sanitasi dan air minum yang layak justru mempengaruhi hasil akhir secara langsung. daerah yang memiliki persentase akses yang layak, cenderung dikategorikan TIDAK MISKIN. begitu pula kebalikannya
 
 ___
 #### Analisis dan visualisai (faktor ekonomi)
@@ -98,7 +100,8 @@ Di dalam analisis dan visualisasi faktor ekonomi ini saya berfokus kepada bebera
 [Klik disini untuk melihat visualisasi (faktor ekonomi)](hasil_visualisasi/faktor_ekonomi.pdf)
 
 #### berikut ini adalah hasil analisis faktor ekonomi :
-- pppp
+- Pengeluaran per-kapita untuk daerah yang dikategorikan TIDAK MISKIN memiliki rata-rata pengeluaran per-kapita lebih besar dibandingkan daerah MISKIN
+- Indeks Pembangunan Manusia mempengaruhi hasil akhir daerah tersebut dikatakan miskin tidaknya. daerah MISKIN memiliki IPM yang lebih rendah dibandingkan daerah TIDAK MISKIN
 ___
 #### Analisis dan visualisai (distribusi dan pola kemiskinan)
 Pada analisis dan visualisasi distribusi dan pola kemiskinan ini saya tidak sepenuhnya menerapakan apa yang telah saya brainstorming sebelumnya (dikarenakan keterbatasn fitur pada email Universitas saya). Saya berfokus pada distribusi penduduk miskin dan pola kemiskinan berdasarkan PRDB sekaligus persentase penduduk miskin
