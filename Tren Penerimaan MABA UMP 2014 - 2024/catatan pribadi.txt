@@ -1,0 +1,3 @@
+Langkah-Langkah pre-processing:
+- mengecek semua struktur dataset (hasilnya semua sama)
+- menggabungkan semua dataser ((raw) dataset gabungan (2014-2024))
