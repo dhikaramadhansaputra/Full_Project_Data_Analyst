@@ -1,3 +1,66 @@
 Langkah-Langkah pre-processing:
-- mengecek semua struktur dataset (hasilnya semua sama)
-- menggabungkan semua dataser ((raw) dataset gabungan (2014-2024))
+- (done) mengecek semua struktur dataset (hasilnya semua sama)
+- (done) menggabungkan semua dataser ((raw) dataset gabungan (2014-2024))
+- validasi dataset:
+    - (done) pilih kolom yang mungkin berguna, pertimbangkan kolom baru:
+        - NOPEN
+        - JALUR
+        - TAHUN
+        - PILIHAN PRODI 1
+        - FAKULTAS PRODI 1
+        - PILIHAN PRODI 2
+        - FAKULTAS PRODI 2
+        - DITERIMA PRODI
+        - FAKULTAS PRODI DITERIMA
+        - USIA
+        - ASAL SLTA
+        - JURUSAN
+        - ALAMAT ASAL
+        - ALAMAT DOMISILI
+        - PEND. AYAH
+        - PEND. IBU
+        - PEKERJAAN IBU
+        - ALAMAT ORANG TUA
+        - TGL DITERIMA
+    - struktur data:
+        - USIA = float ganti int
+        - TGL DITERIMA = object ganti ke date/sejenisnya
+    - (done) data duplikat, liat dari semua kolom = ditemukan 54 data duplikat (metode = 'first')
+    - format tanggal = belum di cek, harus ubah dulu tipe data kolomnya
+    - missing values:
+        - NOPEN                         0      0.00%
+        - JALUR                         0      0.00%
+        - TAHUN                         0      0.00%
+        - PILIHAN PRODI 1              56      0.08%
+        - FAKULTAS PRODI 1             56      0.08%
+        - PILIHAN PRODI 2           20233     30.68%
+        - FAKULTAS PRODI 2          20233     30.68%
+        - DITERIMA PRODI             7537     11.43%
+        - FAKULTAS PRODI DITERMA     7537     11.43%
+        - USIA                      27684     41.97%
+        - ASAL SLTA                 33779     51.22%
+        - JURUSAN                   27897     42.30%
+        - ALAMAT ASAL               29174     44.23%
+        - ALAMAT DOMISILI           29172     44.23%
+        - PEND. AYAH                33854     51.33%
+        - PEND. IBU                 33854     51.33%
+        - PEKERJAAN IBU             33854     51.33%
+        - ALAMAT ORANG TUA          29673     44.99%
+        - TGL DITERIMA                  0      0.00%
+    - distribusi data:
+        - JALUR = aman
+        - TAHUN = aman
+        - PILIHAN PRODI 1 = ada 5 yang valuenya '-', lainnya aman
+        - FAKULTAS PRODI 1
+        - PILIHAN PRODI 2
+        - FAKULTAS PRODI 2
+        - DITERIMA PRODI
+        - FAKULTAS PRODI DITERMA
+        - USIA
+        - JURUSAN
+        - PEND. AYAH
+        - PEND. IBUPEKERJAAN IBU
+
+
+
+JANGAN LUPA PISAHKAN POST CODE UNTUK MAPPING
