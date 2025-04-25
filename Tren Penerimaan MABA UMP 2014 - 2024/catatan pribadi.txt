@@ -51,15 +51,16 @@ Langkah-Langkah pre-processing:
         - JALUR = aman
         - TAHUN = aman
         - PILIHAN PRODI 1 = ada 5 yang valuenya '-', lainnya aman
-        - FAKULTAS PRODI 1
-        - PILIHAN PRODI 2
-        - FAKULTAS PRODI 2
-        - DITERIMA PRODI
-        - FAKULTAS PRODI DITERMA
-        - USIA
-        - JURUSAN
-        - PEND. AYAH
-        - PEND. IBUPEKERJAAN IBU
+        - FAKULTAS PRODI 1 = ada 6 yang valuenya '-', lainnya aman
+        - PILIHAN PRODI 2 = ada 547 yang valuenya '-', lainnya aman
+        - FAKULTAS PRODI 2 = ada 549 yang valuenya '-', lainnya aman
+        - DITERIMA PRODI = ada 11260 yang valuenya '-', lainnya aman
+        - FAKULTAS PRODI DITERMA = ada 11260 yanng valuenya '-', lainnya aman
+        - USIA = 32628 usia 0, 1 usia 12, 15 usia 120, 26 usia 121, lainnya aman (baru cek sekilas)
+        - JURUSAN = aman
+        - PEND. AYAH = aman
+        - PEND. IBU = aman
+        - PEKERJAAN IBU =   aman
 
 
 
