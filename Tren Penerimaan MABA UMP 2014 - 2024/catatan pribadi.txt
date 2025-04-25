@@ -22,11 +22,11 @@ Langkah-Langkah pre-processing:
         - PEKERJAAN IBU
         - ALAMAT ORANG TUA
         - TGL DITERIMA
-    - struktur data:
-        - USIA = float ganti int
-        - TGL DITERIMA = object ganti ke date/sejenisnya
-    - (done) data duplikat, liat dari semua kolom = ditemukan 54 data duplikat (metode = 'first')
-    - format tanggal = belum di cek, harus ubah dulu tipe data kolomnya
+    - (done) struktur data:
+        - (done) USIA = float ganti int
+        - (done) TGL DITERIMA = object ganti ke date/sejenisnya
+    - data duplikat, liat dari semua kolom = ditemukan 54 data duplikat (metode = 'first')
+    - (done) format tanggal = belum di cek, harus ubah dulu tipe data kolomnya
     - missing values:
         - NOPEN                         0      0.00%
         - JALUR                         0      0.00%
