@@ -38,14 +38,14 @@ Langkah-Langkah pre-processing:
         - FAKULTAS PRODI 2          20233     30.68% (sudah diatasi)
         - DITERIMA PRODI             7537     11.43% (sudah diatasi)
         - FAKULTAS PRODI DITERMA     7537     11.43% (sudah diatasi)
-        - USIA                      27684     41.97% 
+        - USIA                      27684     41.97% (sudah diatasi)
         - ASAL SLTA                 33779     51.22% (sudah diatasi)
         - JURUSAN                   27897     42.30% (sudah diatasi)
-        - ALAMAT ASAL               29174     44.23%
-        - ALAMAT DOMISILI           29172     44.23%
-        - PEND. AYAH                33854     51.33%
-        - PEND. IBU                 33854     51.33%
-        - PEKERJAAN IBU             33854     51.33%
+        - ALAMAT ASAL               29174     44.23% (tidak perlu diatasi)
+        - ALAMAT DOMISILI           29172     44.23% (tidak perlu diatasi)
+        - PEND. AYAH                33854     51.33% (sudah diatasi)
+        - PEND. IBU                 33854     51.33% (sudah diatasi)
+        - PEKERJAAN IBU             33854     51.33% (sudah diatasi)
         - ALAMAT ORANG TUA          29673     44.99%
         - TGL DITERIMA                  0      0.00%
     - distribusi data:
@@ -57,7 +57,7 @@ Langkah-Langkah pre-processing:
         - (sudah diatasi) FAKULTAS PRODI 2 = ada 549 yang valuenya '-', lainnya aman
         - (sudah diatasi) DITERIMA PRODI = ada 11260 yang valuenya '-', lainnya aman
         - (sudah diatasi) FAKULTAS PRODI DITERMA = ada 11260 yanng valuenya '-', lainnya aman
-        - USIA = 32628 usia 0, 1 usia 12, 15 usia 120, 26 usia 121, lainnya aman (baru cek sekilas)
+        - (sudah diatasi) USIA = 32628 usia 0, 1 usia 12, 120 beberapa, 26 usia 121, lainnya aman (baru cek sekilas) = umur 25 ke atas jalur CBT dan nilai rapor di null kan
         - JURUSAN = aman
         - PEND. AYAH = aman
         - PEND. IBU = aman
