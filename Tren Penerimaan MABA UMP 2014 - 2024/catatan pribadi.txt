@@ -22,7 +22,7 @@ Langkah-Langkah pre-processing:
         - PEKERJAAN IBU
         - ALAMAT ORANG TUA
         - TGL DITERIMA
-        - Kode Pos (yang ini belum, harus misahin dari ALAMAT)
+        - (sudah diatasi) Kode Pos (yang ini belum, harus misahin dari ALAMAT DOMISILI)
     - (sudah diatasi) struktur data:
         - (sudah diatasi) USIA = float ganti int
         - (sudah diatasi) TGL DITERIMA = object ganti ke date/sejenisnya
@@ -63,6 +63,3 @@ Langkah-Langkah pre-processing:
         - PEND. IBU = aman
         - PEKERJAAN IBU =   aman
 
-
-
-JANGAN LUPA PISAHKAN POST CODE UNTUK MAPPING
