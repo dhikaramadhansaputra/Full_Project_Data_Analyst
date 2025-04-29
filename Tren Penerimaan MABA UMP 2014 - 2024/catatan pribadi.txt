@@ -21,13 +21,11 @@ Langkah-Langkah pre-processing:
         - PEND. IBU
         - PEKERJAAN IBU
         - ALAMAT ORANG TUA
-        - TGL DITERIMA
         - (sudah diatasi) Kode Pos (yang ini belum, harus misahin dari ALAMAT DOMISILI)
     - (sudah diatasi) struktur data:
         - (sudah diatasi) USIA = float ganti int
         - (sudah diatasi) TGL DITERIMA = object ganti ke date/sejenisnya
     - (sudah diatasi) data duplikat, liat dari semua kolom = ditemukan 54 data duplikat (metode = 'first')
-    - (sudah diatasi) format tanggal = belum di cek, harus ubah dulu tipe data kolomnya
     - missing values:
         - NOPEN                         0      0.00%
         - JALUR                         0      0.00%
@@ -62,4 +60,24 @@ Langkah-Langkah pre-processing:
         - PEND. AYAH = aman
         - PEND. IBU = aman
         - PEKERJAAN IBU =   aman
+
+
+Hasil Validasi Ulang :
+- Struktur data = aman
+- Data duplikat = aman
+- Missing values = aman
+- Distribusi data : aman
+    - JALUR = (tidak dicek karna aman)
+    - TAHUN = (tidak dicek karna aman)
+    - PILIHAN PRODI 1 = aman
+    - FAKULTAS PRODI 1 = aman
+    - PILIHAN PRODI 2 = aman
+    - FAKULTAS PRODI 2 = aman
+    - DITERIMA PRODI = aman
+    - FAKULTAS PRODI DITERMA = aman
+    - USIA = aman
+    - JURUSAN = aman
+    - PEND. AYAH = aman
+    - PEND. IBU = aman
+    - PEKERJAAN IBU = aman
 
