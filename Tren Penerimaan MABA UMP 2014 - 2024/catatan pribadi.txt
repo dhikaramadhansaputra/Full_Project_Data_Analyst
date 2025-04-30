@@ -1,3 +1,5 @@
+
+===============================================================================================
 Langkah-Langkah pre-processing:
 - (sudah diatasi) mengecek semua struktur dataset (hasilnya semua sama)
 - (sudah diatasi) menggabungkan semua dataser ((raw) dataset gabungan (2014-2024))
@@ -81,3 +83,24 @@ Hasil Validasi Ulang :
     - PEND. IBU = aman
     - PEKERJAAN IBU = aman
 
+===============================================================================================
+
+Brainstorming Visualisasi
+1. Dashboard Overview (semua tahun)
+    - KPIs:
+        - Jumlah pendaftar (CNT NOPEN)
+        - Jumlah jalur masuk (CTND)
+    - Tren Jumlah Pendaftar per Tahun (Line Chart, Melihat kenaikan/penurunan pendaftar tiap tahun)
+    - Jumlah Pendaftar per Jalur Masuk (Bar Chart, Jalur mana yang paling banyak diminati)
+    - Jumlah Pendaftar per Fakultas (Bar Chart/tabel/bar chart gabungan, Fakultas dengan peminat terbanyak)
+    - Top 10 jumlah Pendaftar per Prodi (tabel, prodi favorit sepanjang tahun)
+    - filter tahun (checkbox)
+2. Dashboard Demografi Pendaftar
+    - KPIs:
+        - Rata-rata usia pendaftar (AVG)
+        - jumlah pekerjaan ibu (CTND)
+    - Distribusi pendidikan ortu (ayah, ibu)
+    - Top 10 asal SLTA
+    - Mapping domisili pendaftar (kalo bisa ini dimasukan, kalo ga bikin dashboard sendiri)
+    - Pekerjaan ibu
+    - Filter tahun (checkbox)
