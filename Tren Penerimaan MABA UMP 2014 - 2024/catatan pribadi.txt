@@ -85,11 +85,20 @@ Hasil Validasi Ulang :
 
 ===============================================================================================
 
+Note : Ternyata gabisa pake kode pos indonesia, minimal kab/kota di tableau
+langkah tambahan :
+- Buat kolom baru:
+    - Kabupaten/kota
+    - Provinsi
+===============================================================================================
+
 Brainstorming Visualisasi
 1. Dashboard Overview (semua tahun)
     - KPIs:
         - Jumlah pendaftar (CNT NOPEN)
         - Jumlah jalur masuk (CTND)
+	- Jumlah prodi (CTND)
+	- Jumlah fakultas (CTND)
     - Tren Jumlah Pendaftar per Tahun (Line Chart, Melihat kenaikan/penurunan pendaftar tiap tahun)
     - Jumlah Pendaftar per Jalur Masuk (Bar Chart, Jalur mana yang paling banyak diminati)
     - Jumlah Pendaftar per Fakultas (Bar Chart/tabel/bar chart gabungan, Fakultas dengan peminat terbanyak)
@@ -99,8 +108,9 @@ Brainstorming Visualisasi
     - KPIs:
         - Rata-rata usia pendaftar (AVG)
         - jumlah pekerjaan ibu (CTND)
-    - Distribusi pendidikan ortu (ayah, ibu)
-    - Top 10 asal SLTA
+	- Jumlah SLTA (CNTD)
+    - Distribusi pendidikan ortu (ayah, ibu) (barh/pie/bar gabungan)
+    - Top 10 asal SLTA (tabel)
     - Mapping domisili pendaftar (kalo bisa ini dimasukan, kalo ga bikin dashboard sendiri)
-    - Pekerjaan ibu
+    - Pekerjaan ibu (barh)
     - Filter tahun (checkbox)

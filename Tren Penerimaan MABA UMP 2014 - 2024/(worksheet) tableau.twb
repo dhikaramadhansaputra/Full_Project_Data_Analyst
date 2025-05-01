@@ -1,0 +1,1224 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0114.1153                               -->
+<workbook original-version='18.1' source-build='2024.3.3 (20243.25.0114.1153)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='(clean) dataset gabungan_kolom baru' inline='true' name='federated.1qatyvw080sc4b15j7nic0uquwe4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='(clean) dataset gabungan_kolom baru' name='textscan.01rurl50ljch5813egroo1mo5688'>
+            <connection class='textscan' directory='D:/Dhika Ramadhan Saputra/Data Analist/Full Project/Tren Penerimaan MABA UMP 2014 - 2024/dataset/clean' filename='(clean) dataset gabungan_kolom baru.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.01rurl50ljch5813egroo1mo5688' name='(clean) dataset gabungan_kolom baru.csv' table='[(clean) dataset gabungan_kolom baru#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='NOPEN' ordinal='0' />
+            <column datatype='string' name='JALUR' ordinal='1' />
+            <column datatype='integer' name='TAHUN' ordinal='2' />
+            <column datatype='string' name='PILIHAN PRODI 1' ordinal='3' />
+            <column datatype='string' name='FAKULTAS PRODI 1' ordinal='4' />
+            <column datatype='string' name='PILIHAN PRODI 2' ordinal='5' />
+            <column datatype='string' name='FAKULTAS PRODI 2' ordinal='6' />
+            <column datatype='string' name='DITERIMA PRODI' ordinal='7' />
+            <column datatype='string' name='FAKULTAS PRODI DITERMA' ordinal='8' />
+            <column datatype='integer' name='USIA' ordinal='9' />
+            <column datatype='string' name='ASAL SLTA' ordinal='10' />
+            <column datatype='string' name='JURUSAN' ordinal='11' />
+            <column datatype='string' name='ALAMAT ASAL' ordinal='12' />
+            <column datatype='string' name='ALAMAT DOMISILI' ordinal='13' />
+            <column datatype='string' name='PEND. AYAH' ordinal='14' />
+            <column datatype='string' name='PEND. IBU' ordinal='15' />
+            <column datatype='string' name='PEKERJAAN IBU' ordinal='16' />
+            <column datatype='string' name='ALAMAT ORANG TUA' ordinal='17' />
+            <column datatype='string' name='KODE POS' ordinal='18' />
+            <column datatype='string' name='Kabupaten/Kota' ordinal='19' />
+            <column datatype='string' name='PROVINSI' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOPEN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOPEN]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>NOPEN</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JALUR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[JALUR]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>JALUR</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAHUN</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TAHUN]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>TAHUN</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PILIHAN PRODI 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PILIHAN PRODI 1]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PILIHAN PRODI 1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAKULTAS PRODI 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FAKULTAS PRODI 1]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>FAKULTAS PRODI 1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PILIHAN PRODI 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PILIHAN PRODI 2]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PILIHAN PRODI 2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAKULTAS PRODI 2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FAKULTAS PRODI 2]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>FAKULTAS PRODI 2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DITERIMA PRODI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DITERIMA PRODI]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>DITERIMA PRODI</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FAKULTAS PRODI DITERMA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FAKULTAS PRODI DITERMA]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>FAKULTAS PRODI DITERMA</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>USIA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[USIA]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>USIA</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ASAL SLTA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ASAL SLTA]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>ASAL SLTA</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JURUSAN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[JURUSAN]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>JURUSAN</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALAMAT ASAL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALAMAT ASAL]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>ALAMAT ASAL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALAMAT DOMISILI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALAMAT DOMISILI]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>ALAMAT DOMISILI</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEND. AYAH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PEND. AYAH]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PEND. AYAH</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEND. IBU</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PEND. IBU]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PEND. IBU</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEKERJAAN IBU</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PEKERJAAN IBU]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PEKERJAAN IBU</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALAMAT ORANG TUA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALAMAT ORANG TUA]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>ALAMAT ORANG TUA</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KODE POS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[KODE POS]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>KODE POS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kabupaten/Kota</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kabupaten/Kota]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>Kabupaten/Kota</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROVINSI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PROVINSI]</local-name>
+            <parent-name>[(clean) dataset gabungan_kolom baru.csv]</parent-name>
+            <remote-alias>PROVINSI</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Alamat Asal' datatype='string' name='[ALAMAT ASAL]' role='dimension' type='nominal' />
+      <column caption='Alamat Domisili' datatype='string' name='[ALAMAT DOMISILI]' role='dimension' type='nominal' />
+      <column caption='Alamat Orang Tua' datatype='string' name='[ALAMAT ORANG TUA]' role='dimension' type='nominal' />
+      <column caption='Asal Slta' datatype='string' name='[ASAL SLTA]' role='dimension' type='nominal' />
+      <column caption='Diterima Prodi' datatype='string' name='[DITERIMA PRODI]' role='dimension' type='nominal' />
+      <column caption='Fakultas Prodi 1' datatype='string' name='[FAKULTAS PRODI 1]' role='dimension' type='nominal' />
+      <column caption='Fakultas Prodi 2' datatype='string' name='[FAKULTAS PRODI 2]' role='dimension' type='nominal' />
+      <column caption='Fakultas Prodi Diterma' datatype='string' name='[FAKULTAS PRODI DITERMA]' role='dimension' type='nominal' />
+      <column caption='Jalur' datatype='string' name='[JALUR]' role='dimension' type='nominal' />
+      <column caption='Jurusan' datatype='string' name='[JURUSAN]' role='dimension' type='nominal' />
+      <column caption='Kode Pos' datatype='string' name='[KODE POS]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='string' name='[Kabupaten/Kota]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Nopen' datatype='integer' name='[NOPEN]' role='measure' type='quantitative' />
+      <column caption='Pekerjaan Ibu' datatype='string' name='[PEKERJAAN IBU]' role='dimension' type='nominal' />
+      <column caption='Pend. Ayah' datatype='string' name='[PEND. AYAH]' role='dimension' type='nominal' />
+      <column caption='Pend. Ibu' datatype='string' name='[PEND. IBU]' role='dimension' type='nominal' />
+      <column caption='Pilihan Prodi 1' datatype='string' name='[PILIHAN PRODI 1]' role='dimension' type='nominal' />
+      <column caption='Pilihan Prodi 2' datatype='string' name='[PILIHAN PRODI 2]' role='dimension' type='nominal' />
+      <column caption='Provinsi' datatype='string' name='[PROVINSI]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Tahun' datatype='integer' name='[TAHUN]' role='dimension' type='ordinal' />
+      <column caption='Usia' datatype='integer' name='[USIA]' role='measure' type='quantitative' />
+      <column caption='(clean) dataset gabungan_kolom baru.csv' datatype='table' name='[__tableau_internal_object_id__].[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/LENOVO/AppData/Local/Temp/TableauTemp/#TableauTemp_0i6qog90t99w9o13j7m0m0extsc7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/01/2025 07:02:45 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>NOPEN</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NOPEN]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NOPEN</remote-alias>
+              <ordinal>0</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65900</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JALUR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[JALUR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JALUR</remote-alias>
+              <ordinal>1</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAHUN</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TAHUN]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAHUN</remote-alias>
+              <ordinal>2</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PILIHAN PRODI 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PILIHAN PRODI 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PILIHAN PRODI 1</remote-alias>
+              <ordinal>3</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FAKULTAS PRODI 1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FAKULTAS PRODI 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FAKULTAS PRODI 1</remote-alias>
+              <ordinal>4</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PILIHAN PRODI 2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PILIHAN PRODI 2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PILIHAN PRODI 2</remote-alias>
+              <ordinal>5</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FAKULTAS PRODI 2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FAKULTAS PRODI 2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FAKULTAS PRODI 2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DITERIMA PRODI</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DITERIMA PRODI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DITERIMA PRODI</remote-alias>
+              <ordinal>7</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FAKULTAS PRODI DITERMA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FAKULTAS PRODI DITERMA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FAKULTAS PRODI DITERMA</remote-alias>
+              <ordinal>8</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>USIA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[USIA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>USIA</remote-alias>
+              <ordinal>9</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ASAL SLTA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ASAL SLTA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ASAL SLTA</remote-alias>
+              <ordinal>10</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2147</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JURUSAN</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[JURUSAN]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JURUSAN</remote-alias>
+              <ordinal>11</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ALAMAT ASAL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ALAMAT ASAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ALAMAT ASAL</remote-alias>
+              <ordinal>12</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23568</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ALAMAT DOMISILI</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ALAMAT DOMISILI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ALAMAT DOMISILI</remote-alias>
+              <ordinal>13</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25392</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PEND. AYAH</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PEND. AYAH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PEND. AYAH</remote-alias>
+              <ordinal>14</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PEND. IBU</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PEND. IBU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PEND. IBU</remote-alias>
+              <ordinal>15</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PEKERJAAN IBU</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PEKERJAAN IBU]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PEKERJAAN IBU</remote-alias>
+              <ordinal>16</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ALAMAT ORANG TUA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ALAMAT ORANG TUA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ALAMAT ORANG TUA</remote-alias>
+              <ordinal>17</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20481</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>KODE POS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[KODE POS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>KODE POS</remote-alias>
+              <ordinal>18</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1340</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kabupaten/Kota</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Kabupaten/Kota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kabupaten/Kota</remote-alias>
+              <ordinal>19</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>368</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PROVINSI</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PROVINSI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PROVINSI</remote-alias>
+              <ordinal>20</ordinal>
+              <family>(clean) dataset gabungan_kolom baru.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='(clean) dataset gabungan_kolom baru.csv' id='(clean) dataset gabungan_kolom baru.csv_4CCED609C2664BC6AFD5ED96245FC6CA'>
+            <properties context=''>
+              <relation connection='textscan.01rurl50ljch5813egroo1mo5688' name='(clean) dataset gabungan_kolom baru.csv' table='[(clean) dataset gabungan_kolom baru#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='NOPEN' ordinal='0' />
+                  <column datatype='string' name='JALUR' ordinal='1' />
+                  <column datatype='integer' name='TAHUN' ordinal='2' />
+                  <column datatype='string' name='PILIHAN PRODI 1' ordinal='3' />
+                  <column datatype='string' name='FAKULTAS PRODI 1' ordinal='4' />
+                  <column datatype='string' name='PILIHAN PRODI 2' ordinal='5' />
+                  <column datatype='string' name='FAKULTAS PRODI 2' ordinal='6' />
+                  <column datatype='string' name='DITERIMA PRODI' ordinal='7' />
+                  <column datatype='string' name='FAKULTAS PRODI DITERMA' ordinal='8' />
+                  <column datatype='integer' name='USIA' ordinal='9' />
+                  <column datatype='string' name='ASAL SLTA' ordinal='10' />
+                  <column datatype='string' name='JURUSAN' ordinal='11' />
+                  <column datatype='string' name='ALAMAT ASAL' ordinal='12' />
+                  <column datatype='string' name='ALAMAT DOMISILI' ordinal='13' />
+                  <column datatype='string' name='PEND. AYAH' ordinal='14' />
+                  <column datatype='string' name='PEND. IBU' ordinal='15' />
+                  <column datatype='string' name='PEKERJAAN IBU' ordinal='16' />
+                  <column datatype='string' name='ALAMAT ORANG TUA' ordinal='17' />
+                  <column datatype='string' name='KODE POS' ordinal='18' />
+                  <column datatype='string' name='Kabupaten/Kota' ordinal='19' />
+                  <column datatype='string' name='PROVINSI' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='(clean) dataset gabungan_kolom baru' name='federated.1qatyvw080sc4b15j7nic0uquwe4' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1qatyvw080sc4b15j7nic0uquwe4'>
+            <column datatype='string' name='[Kabupaten/Kota]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Provinsi' datatype='string' name='[PROVINSI]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Tahun' datatype='integer' name='[TAHUN]' role='dimension' type='ordinal' />
+            <column-instance column='[Kabupaten/Kota]' derivation='Count' name='[cnt:Kabupaten/Kota:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PROVINSI]' derivation='None' name='[none:PROVINSI:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TAHUN]' derivation='None' name='[none:TAHUN:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:TAHUN:ok]'>
+            <groupfilter function='member' level='[none:TAHUN:ok]' member='2024' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:TAHUN:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1qatyvw080sc4b15j7nic0uquwe4].[Longitude (generated)]' field-type='quantitative' max='15914473.032719314' min='10677865.50373219' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1qatyvw080sc4b15j7nic0uquwe4].[Latitude (generated)]' field-type='quantitative' max='873246.00042099738' min='-1934358.205244258' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1qatyvw080sc4b15j7nic0uquwe4].[cnt:Kabupaten/Kota:qk]' max='50' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1qatyvw080sc4b15j7nic0uquwe4].[cnt:Kabupaten/Kota:qk]' />
+              <lod column='[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:PROVINSI:nk]' />
+              <geometry column='[federated.1qatyvw080sc4b15j7nic0uquwe4].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1094474792480469' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1qatyvw080sc4b15j7nic0uquwe4].[Latitude (generated)]</rows>
+        <cols>[federated.1qatyvw080sc4b15j7nic0uquwe4].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{50419243-16C2-4B70-932B-59FB2297D149}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:TAHUN:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1qatyvw080sc4b15j7nic0uquwe4].[cnt:Kabupaten/Kota:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qatyvw080sc4b15j7nic0uquwe4].[cnt:Kabupaten/Kota:qk]</field>
+            <field>[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:PROVINSI:nk]</field>
+            <field>[federated.1qatyvw080sc4b15j7nic0uquwe4].[none:TAHUN:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{0E299FE5-C5D8-4E0A-A615-6A0255D4725F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
