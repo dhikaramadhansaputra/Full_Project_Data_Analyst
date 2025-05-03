@@ -95,14 +95,14 @@ langkah tambahan :
 Brainstorming Visualisasi
 1. Dashboard Overview (semua tahun)
     - KPIs:
-        - Jumlah pendaftar (CNT NOPEN)
-        - Jumlah jalur masuk (CTND)
+        - (realisasi) Jumlah pendaftar (CNT NOPEN)
+        - (Realisasi) Jumlah jalur masuk (CTND)
 	- Jumlah prodi (CTND)
 	- Jumlah fakultas (CTND)
-    - Tren Jumlah Pendaftar per Tahun (Line Chart, Melihat kenaikan/penurunan pendaftar tiap tahun)
-    - Jumlah Pendaftar per Jalur Masuk (Bar Chart, Jalur mana yang paling banyak diminati)
-    - Jumlah Pendaftar per Fakultas (Bar Chart/tabel/bar chart gabungan, Fakultas dengan peminat terbanyak)
-    - Top 10 jumlah Pendaftar per Prodi (tabel, prodi favorit sepanjang tahun)
+    - (Realisasi) Tren Jumlah Pendaftar per Tahun (Line Chart, Melihat kenaikan/penurunan pendaftar tiap tahun)
+    - (realisasi) Jumlah Pendaftar per Jalur Masuk (Bar Chart, Jalur mana yang paling banyak diminati)
+    - (realisasi) Jumlah Pendaftar per Fakultas (Bar Chart/tabel/bar chart gabungan, Fakultas dengan peminat terbanyak)
+    - (Realisasi) Top 10 jumlah Pendaftar per Prodi (tabel, prodi favorit sepanjang tahun)
     - filter tahun (checkbox)
 2. Dashboard Demografi Pendaftar
     - KPIs:
