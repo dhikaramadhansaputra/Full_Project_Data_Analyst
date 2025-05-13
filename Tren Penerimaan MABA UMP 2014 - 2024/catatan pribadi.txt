@@ -114,3 +114,25 @@ Brainstorming Visualisasi
     - Mapping domisili pendaftar (kalo bisa ini dimasukan, kalo ga bikin dashboard sendiri)
     - (realisasi) Pekerjaan ibu (barh)
     - Filter tahun (checkbox)
+
+===============================================================================================
+
+Brainstorming Landing Page
+
+Halaman Utama:
+- Overview Proyek:
+ - Tombol ke tiap dashboard di tableau public
+- Langkah-Langkah proyek
+- Permasalahan
+- Solusi dan tujuan
+- Brainstorming tiap dashboard
+
+Halaman dashboard overview:
+- Visualisasi
+- Cara membaca
+
+halaman dashboard demografi:
+- Visualisasi
+- Cara membaca
+
+==============================================================================================
