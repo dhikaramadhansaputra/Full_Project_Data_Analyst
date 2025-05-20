@@ -123,8 +123,6 @@ Halaman Utama:
 - Overview Proyek:
  - Tombol ke tiap dashboard di tableau public
 - Langkah-Langkah proyek
-- Permasalahan
-- Solusi dan tujuan
 - Brainstorming tiap dashboard
 
 Halaman dashboard overview:
