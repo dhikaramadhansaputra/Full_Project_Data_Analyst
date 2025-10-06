@@ -58,17 +58,43 @@ ___
 ## Data Preprocessing
 Preprocessing merupakan pengolahan data yang bertujuan untuk mempersiapkan data mentah agar siap dikonsumsi. Pada proyek ini, preprocessing memiliki 4 tahap, yaitu: penggabungan dataset, pemilihan kolom, validasi data, dan problem solving. Detail dari tahapan preprocessing adalah sebagai berikut :
 
-#### Penggabungan dataset
+### Penggabungan dataset
 Dataset mentah yang diterima dari mitra proyek (BPA UMP) merupakan 10 berkas Microsoft Excell. Untuk alasan efisiensi pada tahap Preprocessing, penggabungan dataset ini diperlukan. Berikut ini adalah dokumentasi dari tahap ini:
 
 ![dataset sesudah digabung](assets/penggabungan%20dataset%20(ss%20file).png) <br>
 
-#### Pemilihan kolom
-** Tujuan, awal dan hasil
-#### Validasi data
-** Tujuan, awal dan hasil
-#### Problem solving
-** Tujuan, awal dan hasil
+### Pemilihan kolom
+Pemilihan kolom berfungsi untuk mengurangi jumlah kolom informasi dari dataset mentah dan menyisakan kolom informasi yang diperkirakan akan berguna pada tahap visualisasi, proses ini sangat bermanfaat untuk efisiensi pada saat validasi data dan problem solving. 
+- Sample kolom sebelum dipilih (74 kolom):
+![sample kolom sebelum dipilih](assets/struktur%20dataset%20mentah.png)
+- Kolom setelah pemilihan:
+![Kolom yang dipilih](assets/pemilihan%20kolom%20(kolom).png)
+
+### Validasi data & Problem Solving
+Validasi bertujuan untuk menilai tingkat kelengkapan dan akurasi data yang tersaring. Pada proyek ini, terdapat 4 aspek utama yang akan divalidasi: Struktur data, duplikasi data, missing/null values, dan distribusi data. Sedangkan problem solving bertujuan untuk mengatasi daftar masalah yang ditemukan pada proses validasi data.
+
+#### Struktur Dataset
+Validasi struktur data pada proyek ini berfungsi untuk menentukan kesesuaian tipe data tiap kolom informasi.
+- Strukur dataset sebelum:
+![Struktur dataset sebelum](assets/Validasi%20data%20-%20struktur%20data%20(tipe%20data).png)
+    - Masalah yang ditemukan:
+        - Kolom USIA bertipe data Float, akan lebih ideal jika tipe datanya Integer.
+    - Solusi yang diambil:
+        - Mengubah tipe data pada kolom USIA menjadi Integer
+- Struktur dataset sesudah:
+![Struktur dataset sesudah](assets/validasi%20ulang%20-%20struktur%20data.png)
+
+** jelasin fungsi dan list problem & solusi + hasil akhir
+
+#### Duplikasi Data
+** jelasin fungsi dan list problem & solusi + hasil akhir
+
+
+#### Missing/null Values
+** jelasin fungsi dan list problem & solusi + hasil akhir
+
+#### Distribusi Data
+** jelasin fungsi dan list problem & solusi + hasil akhir
 
 ___
 ## Representasi Visual
