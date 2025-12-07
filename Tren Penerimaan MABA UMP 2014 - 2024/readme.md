@@ -2,8 +2,8 @@
 
 ___
 
-# Visualisasi Tren Penerimaan Mahasiswa Baru UMP 2014-2024
-![Header](assets/mahaisswabaru.jpeg){width=700} <br>
+# Visualisasi Tren Penerimaan Mahasiswa Baru UMP 2014-2024 <br>
+<img src="assets/mahaisswabaru.jpeg" width="400" alt="Header"> <br>
 
 #### Latar belakang
 Proyek ini dibangun karena adanya kesulitan saat melakukan analisis data pendaftar mahasiswa baru di UMP yang disebabkan tidak adanya visualisasi sehingga proses evaluasi dan analisis strategi marketing masih dilakukan secara terbatas.
@@ -28,9 +28,9 @@ ___
 ## Pengumpulan Data
 Karena alasan keamanan, proses pengumpulan data di database UMP tidak dilakukan langsung oleh penulis, melainkan oleh mitra proyek (BPA UMP). Berikut ini adalah dokumentasi dari tahap pengumpulan data: <br>
 
-![Penerimaan data via WA](assets/pengambilan%20data%20(chat%20WA).png){width=500} <br>
-![dataset mentah yang diterima](assets/Pengambilan%20data%20(daftar%20data).png){width=500} <br>
-![Sample data mentah](assets/Pengambilan%20data%20(contoh%20data).png){width=800}<br>
+<img src="assets/pengambilan%20data%20(chat%20WA).png" width="150" alt="Penerimaan data via WA"> <br>
+<img src="assets/Pengambilan%20data%20(daftar%20data).png" width="150" alt="dataset mentah yang diterima"> <br>
+<img src="assets/Pengambilan%20data%20(contoh%20data).png" width="300" alt="Sample data mentah"> <br>
 
 #### Tentang data :
 - Data yang dikumpulkan meliputi data mahasiswa yang berstatus mahasiswa baru dalam kurun tahun 2014-2024.
@@ -64,16 +64,16 @@ ___
 Proyek ini memiliki 4 tahap preprocessing , yaitu: penggabungan dataset, pemilihan kolom, validasi data, dan problem solving. Detail dari tahapan preprocessing adalah sebagai berikut :
 
 ### Penggabungan dataset
-Dataset mentah yang diterima dari mitra proyek (BPA UMP) merupakan 10 berkas Microsoft Excell. Untuk alasan efisiensi pada tahap Preprocessing, penggabungan dataset ini diperlukan. Berikut ini adalah dokumentasi dari tahap ini:
+Dataset mentah yang diterima dari mitra proyek (BPA UMP) merupakan 10 berkas Microsoft Excell. Untuk alasan efisiensi pada tahap Preprocessing, penggabungan dataset ini diperlukan. Berikut ini adalah dokumentasi dari tahap ini: <br>
 
-![dataset sesudah digabung](assets/penggabungan%20dataset%20(ss%20file).png){width=300} <br>
+<img src="assets/penggabungan%20dataset%20(ss%20file).png" width="150" alt="dataset sesudah digabung"> <br>
 
 ### Pemilihan kolom
 Berfungsi untuk mengurangi jumlah kolom informasi dari dataset mentah dan menyisakan kolom informasi yang diperkirakan akan berguna pada tahap visualisasi. 
 - Sample kolom sebelum dipilih (74 kolom): <br>
-![sample kolom sebelum dipilih](assets/struktur%20dataset%20mentah.png){width=400}<br>
+<img src="assets/struktur%20dataset%20mentah.png" width="150" alt="sample kolom sebelum dipilih"> <br>
 - Kolom setelah pemilihan: <br>
-![Kolom yang dipilih](assets/pemilihan%20kolom%20(kolom).png){width=400}
+<img src="assets/pemilihan%20kolom%20(kolom).png" width="150" alt="Kolom yang dipilih">
 
 ### Validasi data & Problem Solving
 Validasi bertujuan untuk menilai tingkat kelengkapan dan akurasi data yang tersaring. Pada proyek ini, terdapat 4 aspek utama yang akan divalidasi: Struktur data, duplikasi data, missing/null values, dan distribusi data. Sedangkan problem solving bertujuan untuk mengatasi daftar masalah yang ditemukan pada proses validasi data.
@@ -81,37 +81,37 @@ Validasi bertujuan untuk menilai tingkat kelengkapan dan akurasi data yang tersa
 #### Struktur Dataset
 Bertujuan untuk menentukan kesesuaian tipe data tiap kolom informasi.
 - Strukur dataset sebelum: <br>
-![Struktur dataset sebelum](assets/Validasi%20data%20-%20struktur%20data%20(tipe%20data).png){width=400}<br>
+<img src="assets/Validasi%20data%20-%20struktur%20data%20(tipe%20data).png" width="150" alt="Struktur dataset sebelum"><br>
 
 - Struktur dataset sesudah: <br>
-![Struktur dataset sesudah](assets/validasi%20ulang%20-%20struktur%20data.png){width=400} <br>
+<img src="assets/validasi%20ulang%20-%20struktur%20data.png" width="150" alt="Struktur dataset sesudah"> <br>
 
 #### Duplikasi Data
 Bertujuan untuk menghapus semua data yang 100% terduplikat
 - Jumlah data duplikat ditemukan: <br>
-![jumlah data duplikat](assets/Validasi%20data%20-%20Duplikasi%20data%20(menghitung%20data%20duplikat,%20kecuali%20aslinya).png){width=400} <br>
+<img src="assets/Validasi%20data%20-%20Duplikasi%20data%20(menghitung%20data%20duplikat,%20kecuali%20aslinya).png" width="150" alt="jumlah data duplikat"> <br>
 - Sample data duplikat: <br>
-![sample data duplikat](assets/Validasi%20data%20-%20Duplikasi%20data%20(sampel%20data%20duplikat).png){width=800} <br>
+<img src="assets/Validasi%20data%20-%20Duplikasi%20data%20(sampel%20data%20duplikat).png" width="300" alt="sample data duplikat"><br>
 - data duplikat setelah dihapus: <br>
-![data duplikat setelah dihapus](assets/validasi%20ulang%20-%20data%20duplikat.png){width=500} <br>
+<img src="assets/validasi%20ulang%20-%20data%20duplikat.png" width="150" alt="data duplikat setelah dihapus"><br>
 
 #### Missing/null Values
 Berfungsi untuk mendeteksi dan menangani data yang hilang/rusak. Metode yang digunakan adalah statistical imputation (untuk numeric), dan label imputation (untuk kategorikal).
 - missing/null values sebelum: <br>
-![null values sebelum](assets/validasi%20data(missing%20values).png){width=500} <br>
+<img src="assets/validasi%20data(missing%20values).png" width="500" alt="null values sebelum">
 - missing/null values sesudah: <br>
-![missing values sesudah](assets/validasi%20ulang%20-%20missing%20values.png){width=300} <br>
+<img src="assets/validasi%20ulang%20-%20missing%20values.png" width="300" alt="missing values sesudah">
 
 #### Distribusi Data
 Berfungsi untuk melihat sekaligus mengatasi nilai anomali (nilai yang seharusnya tidak ada) dalam persebaran data. Metode yang digunakan untuk mengatasi anomali adalah statistical imputation (numeric) dan label imputation (kategorikal) 
 - sample distribusi data sebelum: <br>
-![Prodi diterima sebelum](assets/Validasi%20data%20-%20distribusi%20prodi%20diterima.png){width=600} <br>
-![Usia sebelum](assets/Validasi%20data%20-%20distribusi%20usia.png){width=500} <br>
-![fakultas diterima sebelum](assets/Validasi%20data%20-%20distribusi%20fakultas%20prodi%20diterima.png){width=600} <br>
+<img src="assets/Validasi%20data%20-%20distribusi%20prodi%20diterima.png" width="600" alt="Prodi diterima sebelum">
+<img src="assets/Validasi%20data%20-%20distribusi%20usia.png" width="500" alt="Usia sebelum">
+<img src="assets/Validasi%20data%20-%20distribusi%20fakultas%20prodi%20diterima.png" width="600" alt="fakultas diterima sebelum">
 - sample distribusi data sesudah: <br>
-![prodi diterima sesudah](assets/validasi%20ulang%20-%20distribusi%20prodi%20pilihan%201.png){width=600} <br>
-![usia sesudah](assets/validasi%20ulang%20-%20distribusi%20usia.png){width=500} <br>
-![fakultas diterima sesudah](assets/validasi%20ulang%20-%20distribusi%20fakultas%20prodi%20diterima.png){width=600} <br>
+<img src="assets/validasi%20ulang%20-%20distribusi%20prodi%20pilihan%201.png" width="600" alt="prodi diterima sesudah">
+<img src="assets/validasi%20ulang%20-%20distribusi%20usia.png" width="500" alt="usia sesudah">
+<img src="assets/validasi%20ulang%20-%20distribusi%20fakultas%20prodi%20diterima.png" width="600" alt="fakultas diterima sesudah">
 ___
 ## Visualisasi
 Visualisasi memudahkan pemahaman data yang kompleks dengan mengubahnya menjadi bentuk visual yang mudah dipahami seperti grafik, bagan, dan peta. Proyek ini memiliki 2 tahap pada visualisasi yaitu brainstorming dan realiasi:
@@ -119,14 +119,16 @@ Visualisasi memudahkan pemahaman data yang kompleks dengan mengubahnya menjadi b
 #### Brainstorming visualisasi
 Brainstorming bertujuan agar tahap visualisasi bisa dilaksanakan secara terstruktur dan tidak asal "klik" dengan mengharapkan insight yang berguna. Berikut ini detailnya:
 
-|  | Tujuan | Bagian 1 | Bagian 2 | Bagian 3 | Bagian 4 |Bagian 5 |
+|  | Tujuan | Bagian 1 | Bagian 2 | Bagian 3 | Bagian 4 |Bagian 5 |
 |:------:|---------|---------|---------|---------|---------|---------|
-| Dashboard Overview  | Dashboard ini dirancang untuk memudahkan pemangku kepentingan dalam memahami tren penerimaan mahasiswa baru secara overall | Total mahasiswa, total jalur masuk, persebaran jenis asal SLTA |Bagaimana grafik jumlah mahasiswa baru dalam 10 tahun terakhir? |Jalur apa yang digunakan para mahasiswa tersebut? |Bagaimana jumlah distribusi mahasiswa baru per-fakultas? |Program studi apa yang paling diminati mahasiswa baru? |
-| Dashboard Demografi  | Dashboard ini lebih ditekankan untuk bisa melihat pola demografi mahasiswa baru, terutama distribusi asal daerah | Umur ratarata, jumlah pekerjaan orang tua, jumlah SLTA | Daerah mana saja yang menyumbang mahasiswa paling banyak? |Apa saja pekerjaan orang tua para mahasiswa baru? |Bagaimana distribusi pendidikan terakhir orang tua mahasiswa baru? |SLTA mana saja yang menjadi top 10 penyumbang mahasiswa baru? |
+| Dashboard Overview  | Dashboard ini dirancang untuk memudahkan pemangku kepentingan dalam memahami tren penerimaan mahasiswa baru secara overall | Total mahasiswa, total jalur masuk, persebaran jenis asal SLTA |Bagaimana grafik jumlah mahasiswa baru dalam 10 tahun terakhir? |Jalur apa yang digunakan para mahasiswa tersebut? |Bagaimana jumlah distribusi mahasiswa baru per-fakultas? |Program studi apa yang paling diminati mahasiswa baru? |
+| Dashboard Demografi  | Dashboard ini lebih ditekankan untuk bisa melihat pola demografi mahasiswa baru, terutama distribusi asal daerah | Umur rata-rata, jumlah pekerjaan orang tua, jumlah SLTA | Daerah mana saja yang menyumbang mahasiswa paling banyak? |Apa saja pekerjaan orang tua para mahasiswa baru? |Bagaimana distribusi pendidikan terakhir orang tua mahasiswa baru? |SLTA mana saja yang menjadi top 10 penyumbang mahasiswa baru? |
 
-#### Dashboard Overall
-mungkin cuma gambar?
+#### Dashboard Overview
+![dashboard overview](assets/Dashboard%20Overview.png)
+
 #### Dashboard Demografi
-mungkin cuma gambar?
+![dashboard demografi](assets/Dashboard%20Demografi.png)
 
-### Link Menuju Dashboard?
+---
+##### Link Dashboard: [https://public.tableau.com/app/profile/dhika.ramadhan.saputra/viz/worksheettableau_17468451606110/DashboardOverview](https://public.tableau.com/app/profile/dhika.ramadhan.saputra/viz/worksheettableau_17468451606110/DashboardOverview)
