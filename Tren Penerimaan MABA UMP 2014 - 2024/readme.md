@@ -108,7 +108,7 @@ Berfungsi untuk melihat sekaligus mengatasi nilai anomali (nilai yang seharusnya
 <img src="assets/validasi%20ulang%20-%20distribusi%20prodi%20pilihan%201.png" width="600" alt="prodi diterima sesudah">
 <img src="assets/validasi%20ulang%20-%20distribusi%20usia.png" width="500" alt="usia sesudah">
 <img src="assets/validasi%20ulang%20-%20distribusi%20fakultas%20prodi%20diterima.png" width="600" alt="fakultas diterima sesudah">
-___
+--- 
 
 ## Visualisasi
 Visualisasi memudahkan pemahaman data yang kompleks dengan mengubahnya menjadi bentuk visual yang mudah dipahami seperti grafik, bagan, dan peta. Proyek ini memiliki 2 tahap pada visualisasi yaitu brainstorming dan realiasi:
@@ -126,6 +126,7 @@ Brainstorming bertujuan agar tahap visualisasi bisa dilaksanakan secara terstruk
 
 #### Dashboard Demografi
 <img src="assets/Dashboard Demografi.png" width="900" alt="fakultas diterima sesudah">
----
+
+--- 
 
 ##### Link Dashboard:[https://public.tableau.com/app/profile/dhika.ramadhan.saputra/viz/worksheettableau_17468451606110/DashboardOverview](https://public.tableau.com/app/profile/dhika.ramadhan.saputra/viz/worksheettableau_17468451606110/DashboardOverview)
