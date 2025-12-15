@@ -108,6 +108,7 @@ Berfungsi untuk melihat sekaligus mengatasi nilai anomali (nilai yang seharusnya
 <img src="assets/validasi%20ulang%20-%20distribusi%20prodi%20pilihan%201.png" width="600" alt="prodi diterima sesudah">
 <img src="assets/validasi%20ulang%20-%20distribusi%20usia.png" width="500" alt="usia sesudah">
 <img src="assets/validasi%20ulang%20-%20distribusi%20fakultas%20prodi%20diterima.png" width="600" alt="fakultas diterima sesudah">
+
 --- 
 
 ## Visualisasi
