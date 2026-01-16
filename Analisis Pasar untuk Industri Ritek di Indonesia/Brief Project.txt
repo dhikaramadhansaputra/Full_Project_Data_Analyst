@@ -1,0 +1,27 @@
+========================================
+Halo!
+
+Nama saya Arief, saya bekerja sebagai Business Development Manager di PT Lintas Strategi. Kami sedang mengembangkan proyek untuk menganalisis dinamika pasar di Indonesia, dengan fokus pada industri ritel di kota-kota utama seperti Jakarta, Surabaya, dan Bandung.
+
+Tujuan kami adalah memahami perilaku konsumen, tren pembelian, dan preferensi dalam kategori produk ritel seperti produk fesyen, elektronik, dan kebutuhan sehari-hari. Laporan ini diharapkan membantu kami memahami daya beli dan peluang untuk melakukan ekspansi usaha di segmen pasar ini.
+
+Kami membutuhkan laporan yang berisi analisis data penjualan, wawasan dari survei konsumen, serta rekomendasi strategi yang dapat kami terapkan dalam pemasaran dan distribusi produk.
+
+Kami berharap proyek ini selesai dalam waktu 3 bulan dengan hasil yang detail dan actionable.
+
+
+Terima kasih,
+
+Arief
+============================================
+
+- Kebutuhan data: data transaksi ritel di Indonesia (https://www.kaggle.com/datasets/hafidzunalimaljazari/dataset-penjualan-dummy)
+- data wajib masukan ke database (simulasi nyata)
+- Proses:
+ - masukan dataset ke database (localhost)
+ - ambil data yang diperlukan/semuanya?
+ - preprocessing pakai python
+ - tentukan KPI dan unsur analisis apa saja (terutama pertanyaan dan masalah utama)
+ - rancang kebutuhan grafik per masalah
+ - desain layout power BI
+ - Buat visualisasi
