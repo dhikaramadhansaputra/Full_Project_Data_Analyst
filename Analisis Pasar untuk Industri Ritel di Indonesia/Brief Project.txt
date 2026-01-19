@@ -25,3 +25,38 @@ Arief
  - rancang kebutuhan grafik per masalah
  - desain layout power BI
  - Buat visualisasi
+ ============================================
+
+PENTINGGG : 
+- Fokus utama ada di jakarta, surabaya, Bandung
+- memahami perilaku konsumen (tren pembelian, preferensi pembelian)
+- Tujuan = memahami daya beli & peluang untuk ekspansi bisnis
+
+Data yg ada:
+- transaction_id
+- nama produk
+- kategori
+- unit terjual
+- unit price
+- Revenue
+- Store_Location
+- Payment_Method
+- Province
+- Unit_Cost
+
+KPI:
+- Total Revenue = menunjukan pendapatan kotor
+- total profit = di akalin pake revenue-(cost x unit sold)
+- Top 1 store location by provit = biar tau kota mana yg paling banyak menguntungkan
+- top 1 kategori yg paling laku
+
+Selain KPI:
+- tren penjualan
+- top 10 kategori
+- Payment_Method
+- top 10 lokasi di kabupaten yg ada jakarta, surabaya, dan Bandung
+
+Filter:
+- bulan, tahun
+- kategori?
+- kota besar?
