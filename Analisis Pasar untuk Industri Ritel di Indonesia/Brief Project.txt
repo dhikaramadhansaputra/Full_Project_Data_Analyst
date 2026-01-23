@@ -47,8 +47,8 @@ Data yg ada:
 KPI:
 (DONE) - Total Revenue = menunjukan pendapatan kotor
 (DONE) - total profit = di akalin pake revenue-(cost x unit sold)
-- Top 1 store location by provit = biar tau kota mana yg paling banyak menguntungkan
-- top 1 kategori yg paling laku
+(DONE) - Top 1 store location by provit = biar tau kota mana yg paling banyak menguntungkan
+(DONE) - top 1 kategori yg paling laku
 
 Selain KPI:
 - tren penjualan
