@@ -51,12 +51,10 @@ KPI:
 (DONE) - top 1 kategori yg paling laku
 
 Selain KPI:
-- tren penjualan
-- top 10 kategori
-- Payment_Method
-- top 10 lokasi di kabupaten yg ada jakarta, surabaya, dan Bandung
+(DONE, butuh kerapihan) - tren penjualan (revenue + profit)
+(DONE) - top 10 kategori by profit
+(DONE) - Payment_Method
+(DONE, butuh kerapihan) - top 10 lokasi by profit
 
 Filter:
-- bulan, tahun
-- kategori?
-- kota besar?
+(DONE, mungkin next cari tutorial biar bisa pilih lebih dari 1 option) - bulan, tahun)
