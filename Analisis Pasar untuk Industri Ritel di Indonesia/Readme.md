@@ -6,7 +6,7 @@ ___
 <img src="gambar, icon/Keperluan readme/minimarket.jpg" width="800" alt="Header"> <br>
 
 #### Project overview
-Proyek ini mengembangkan data pipeline end-to-end untuk mengolah data transaksi PT Lintas Strategi guna memetakan karakteristik pasar dan perilaku konsumen di Indonesia. Tujuannya adalah mentransformasi data mentah menjadi insight actionable yang mendukung strategi ekspansi, optimalisasi distribusi, serta pengambilan keputusan berbasis data yang presisi.
+Proyek ini mengolah data transaksi PT Lintas Strategi secara end-to-end guna memetakan karakteristik pasar dan perilaku konsumen di Indonesia. Tujuannya adalah mentransformasi data mentah menjadi insight actionable yang mendukung strategi ekspansi, optimalisasi distribusi, serta pengambilan keputusan berbasis data yang presisi.
 
 #### Problem statement / business questions
 - Kota besar mana yang menghasilkan profit tertinggi dan paling potensial untuk ekspansi bisnis?
