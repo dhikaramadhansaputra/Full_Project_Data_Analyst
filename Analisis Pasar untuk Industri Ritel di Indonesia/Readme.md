@@ -1,6 +1,6 @@
 ### Project ini masih dalam tahap pengembangan, terimakasih...
 
-Terakhir di update 04 Februari 2026
+Terakhir di update 05 Februari 2026
 ___
 # 🏪 Analisis Data Ritel End-to-End: Strategi Ekspansi dan Perilaku Pasar PT Lintas Strategi 🏪<br>
 <img src="gambar, icon/Keperluan readme/minimarket.jpg" width="800" alt="Header"> <br>
@@ -9,9 +9,11 @@ ___
 Proyek ini mengolah data transaksi PT Lintas Strategi secara end-to-end guna memetakan karakteristik pasar dan perilaku konsumen di Indonesia. Tujuannya adalah mentransformasi data mentah menjadi insight actionable yang mendukung strategi ekspansi, optimalisasi distribusi, serta pengambilan keputusan berbasis data yang presisi.
 
 #### Problem statement / business questions
+- Berapa revenue yang di dapatkan perusahaan?
+- Berapa profit yang di dapatkan perusahaan?
 - Kota besar mana yang menghasilkan profit tertinggi dan paling potensial untuk ekspansi bisnis?
 - Kategori produk apa yang memiliki kontribusi profit terbesar dan paling diminati konsumen?
-- Bagaimana tren penjualan dan profit dari waktu ke waktu pada masing-masing kota?
+- Bagaimana tren penjualan dan profit dari waktu ke waktu?
 - Metode pembayaran apa yang paling sering digunakan dan bagaimana pengaruhnya terhadap revenue?
 - Lokasi toko mana yang menunjukkan kinerja terbaik berdasarkan profit yang dihasilkan?
 
@@ -98,18 +100,63 @@ Hasil temuan: Tidak ada missing/null values
 Setelah dilakukan Data Quality Assurance (DQA), selanjutnya adalah data remediation (fixing data issues). Karena masalah yang ditemukan hanya pada struktur dataset, proses ini dilakukan pada Microsoft Power BI.
 
 <figure>
-  <img src="gambar, icon/Keperluan readme/" width="500" alt="Tipe data sebelum">
-  <figcaption align="center"> <b>Tipe data (sebelum)</b> .</figcaption>
+  <img src="gambar, icon/Keperluan readme/tipe data sebelum.png" width="300" alt="Tipe data sebelum">
+  <figcaption align="left"> <i>Tipe data (sebelum = object / text / string)</i> .</figcaption>
 </figure>
 
 <figure>
-  <img src="gambar, icon/Keperluan readme/" width="500" alt="Tipe data sesudah">
-  <figcaption align="center"> <b>Tipe data (sesudah)</b> </figcaption>
+  <img src="gambar, icon/Keperluan readme/tipe data sesudah.png" width="300" alt="Tipe data sesudah">
+  <figcaption align="left"> <i>Tipe data (sesudah = date)</i> </figcaption>
 </figure>
 
 ___
 ### Feature engineering
-Featur engineering adalah ... . Ini berguna untuk menambah informasi baru berdasarkan informasi yang sudah ada. Pada proyek ini, ada x kolom informasi yang ditambahkan.
+Featur engineering adalah ... . Ini berguna untuk memperbaiki atau menambah informasi baru berdasarkan informasi yang sudah ada. Pada proyek ini, ada 2 kolom informasi yang ditambahkan: revenue_fixed & profit.
 
 #### Revenue_fixed
+Terdapat kesalahan value pada kolom 'Revenue'. Hal ini di dasarkan pada perhitungan Revenue, yaitu: Unit_Price x Units_Sold
+
+<figure>
+  <img src="gambar, icon/Keperluan readme/featur engineering - kesalahan revenue.png" width="500" alt="Kesalahan velue revenue">
+  <figcaption align="left"> <i>Kesalahan value 'Revenue'</i> </figcaption>
+</figure>
+
+Hal ini diperbaiki dengan membuat kolom baru bernama 'revenue_fixed' yang berisi value dengan perhitungan revenue_fixed = Unit_Price x Units_Sold
+
+<figure>
+  <img src="gambar, icon/Keperluan readme/feature engineering - perbaikan revenue.png" width="300" alt="Kesalahan velue revenue">
+  <figcaption align="left"> <i>Kolom revenue_fixed (perbaikan 'Revenue')</i> </figcaption>
+</figure>
+
 #### Profit
+Kolom profit sangat berguna untuk melihat keuntungan perusahaan, maka dari itu saya membuat kolom ini berdasarkan rumus profit = revenue_fixed - (unit_cost x units_sold).
+
+<figure>
+  <img src="gambar, icon/Keperluan readme/feature engineering - profit.png" width="300" alt="Kesalahan velue revenue">
+  <figcaption align="left"> <i>Kolom baru 'profit'</i> </figcaption>
+</figure>
+
+___
+
+## Dashboard planning
+Berdasarkan Problem statement / business questions pada awal project, ditentukanlah dashboard yang mengandung: 
+#### Metrik KPI
+| KPI   | Problem statement / business questions yg diselesaikan |
+|-----------|-----------|
+| Total revenue  | Berapa revenue yang di dapatkan perusahaan? |
+| Total profit  | Berapa profit yang di dapatkan perusahaan?  |
+| Top 1 store by profit | Lokasi toko mana yang menunjukkan kinerja terbaik berdasarkan profit yang dihasilkan? |
+| Top 1 best-seller category | Kategori produk apa yang memiliki kontribusi profit terbesar dan paling diminati konsumen? |
+
+#### Grafik non-KPI
+| Grafik   |  Problem statement / business questions yg diselesaikan  |
+|-----------|-----------|
+| Trend penjualan & profit  | Bagaimana tren penjualan dan profit dari waktu ke waktu? |
+| Top 10 category by profit  | (detail) Kategori produk apa yang memiliki kontribusi profit terbesar dan paling diminati konsumen?  |
+| Payment method | Metode pembayaran apa yang paling sering digunakan dan bagaimana pengaruhnya terhadap revenue? |
+| Location rank by profit | Kota besar mana yang menghasilkan profit tertinggi dan paling potensial untuk ekspansi bisnis? |
+
+___
+
+## Visualisasi
+pppp
