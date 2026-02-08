@@ -1,7 +1,3 @@
-### Project ini masih dalam tahap pengembangan, terimakasih...
-
-Terakhir di update 05 Februari 2026
-___
 # 🏪 Analisis Data Ritel End-to-End: Strategi Ekspansi dan Perilaku Pasar PT Lintas Strategi 🏪<br>
 <img src="gambar, icon/Keperluan readme/minimarket.jpg" width="800" alt="Header"> <br>
 
@@ -159,4 +155,7 @@ Berdasarkan Problem statement / business questions pada awal project, ditentukan
 ___
 
 ## Visualisasi
-pppp
+Dashboard dapat diakses dengan link berikut:
+[https://app.powerbi.com/groups/me/reports/7ca2da5c-38fd-46c1-aa39-f9f39ec84142/60ba039ab09ac1d9170c?experience=power-bi](https://app.powerbi.com/groups/me/reports/7ca2da5c-38fd-46c1-aa39-f9f39ec84142/60ba039ab09ac1d9170c?experience=power-bi)
+
+<img src="gambar, icon/Keperluan readme/visualisasi.png" width="800" alt="Gambar screenshot missing/null values"> <br>
