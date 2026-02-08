@@ -107,7 +107,7 @@ Setelah dilakukan Data Quality Assurance (DQA), selanjutnya adalah data remediat
 
 ___
 ### Feature engineering
-Featur engineering adalah ... . Ini berguna untuk memperbaiki atau menambah informasi baru berdasarkan informasi yang sudah ada. Pada proyek ini, ada 2 kolom informasi yang ditambahkan: revenue_fixed & profit.
+Featur engineering adalah proses mengubah, memilih, atau menciptakan fitur baru dari dataset yang tersedia. Ini berguna untuk memperbaiki atau menambah informasi baru berdasarkan informasi yang sudah ada. Pada proyek ini, ada 2 kolom informasi yang ditambahkan: revenue_fixed & profit.
 
 #### Revenue_fixed
 Terdapat kesalahan value pada kolom 'Revenue'. Hal ini di dasarkan pada perhitungan Revenue, yaitu: Unit_Price x Units_Sold
