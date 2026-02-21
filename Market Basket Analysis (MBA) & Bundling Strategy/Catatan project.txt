@@ -1,0 +1,19 @@
+Catatan project - Market Basket Analysis (MBA) & Bundling Strategy
+=====================================
+1. Business Problem:
+Biaya akuisisi mencari pelanggan baru sangat tinggi. Tim Marketing ingin menaikkan Average Transaction Value (ATV) dengan membuat paket bundling pada toko online, Menyusun rak pada toko offline & membuat penawaran di jam tertentu, tapi mereka bingung produk mana yang harus dipilih.
+
+2. Sumber data:
+Kaggle (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis?resource=download). 6 files
+
+3. Langkah - Langkah:
+- insert dataset raw ke database local
+- ambil data (jgn lupa join semua mungkin? karna tabelnya banyak)
+- mengubah data menjadi format one-hot encoding
+- market basket analysis menggunakan algoritma Apriori/FP-Growth
+- matriks yg dihitung:
+ - Support: Seberapa populer kombinasi barang tersebut.
+ - Confidence: Seberapa sering barang B dibeli jika barang A dibeli.
+ - Lift: Ukuran kekuatan hubungan (jika Lift > 1, maka hubungan produk tersebut asli, bukan kebetulan).
+- buat visualisasi di power Bi menggunakan data itu dan data awal
+- Kasih rekomendasi/insight
