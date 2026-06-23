@@ -1,0 +1,33 @@
+Judul : Masih kosong (industry FMCG intinya)
+Tujuan : mencari masalah (yg ada di KPI) dan menyelesaikannya by data
+Flow project = bikin DB, ambil data hanya tahun 2024, preparation & analisis di power BI
+====================================================
+
+Database:
+(PROSES, belum selese, baru masukin calendar) 1. buat database dan tabelnya (pastikan foreign key nya bener)
+2. muat data
+
+===================
+
+Data preparation:
+1. Ambil data 2024 lewat power BI
+2. DAQ:
+ - duplikat
+ - tipe data
+ - distribusi data
+ - missing/null values
+3. Data remediation (jika diperlukan)
+
+================================
+
+Visualisasi:
+1. data modelling (ngecek aja kalo belum ya benerin)
+2. Rumuskan halaman dashboard
+3. rumuskan KPI tiap halaman
+4. rumuskan visualiasi tiap halaman
+
+=============================
+
+Analisis:
+1. cari problem,
+2. solved it by data (generate insight)

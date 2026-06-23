@@ -17,3 +17,53 @@ Kaggle (https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis
  - Lift: Ukuran kekuatan hubungan (jika Lift > 1, maka hubungan produk tersebut asli, bukan kebetulan).
 - buat visualisasi di power Bi menggunakan data itu dan data awal
 - Kasih rekomendasi/insight
+
+==========================================
+Kolom informasi:
+- order_id
+- user_id
+- product_id
+- product_name
+- aisle
+- department
+- add_to_cart_order
+- reordered
+- order_dow
+- order_hour_of_day
+- days_since_prior_order
+==========================================
+
+Dashboard planning - vertical dashboard (ukuran belum tau)
+
+1. 2 dashboard (overview & association)
+2. Matrik overview:
+ (DONE) - total produk
+ (DONE) - total user belanja
+ (PROSES) - top 3 department
+ - top 3 aisles
+ - berapa kali re order
+ - hari terlaris
+ - jam terlaris
+3. matrik association: 
+ - top 3 produk asc desc support
+ - top 3 procuk asc desc confident
+ - top 3 produk asc desc lift
+4. non-KPI overview (detail dari KPI):
+ - top 10 produk berdasarkan penjualan
+ - department rank berdasar add to cart order
+ - department rank berdasar reorder
+ - aisles rank berdasar add to cart
+ - aisles rank berdasar reorder
+ - hari rank berdasar add to cart
+ - jam terlaris berdasar add to cart
+5. non-KPI:
+ - total kombinasi/bundling
+ - grafik association berdasar lift
+ - tabel detail association
+ - keterangan support, confidence, lift
+6. filter overview & association
+ - department
+ - aisles
+ - hari
+
+==========================================
