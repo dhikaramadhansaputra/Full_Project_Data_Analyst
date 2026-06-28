@@ -83,3 +83,54 @@ IGNORE 1 LINES
 
 select * from calendar limit 5;
 
+-- insert data customers
+SET FOREIGN_KEY_CHECKS = 0;
+LOAD DATA LOCAL INFILE 'D:\Dhika Ramadhan Saputra/Data Analist/Full Project/Coklat/data/customers.csv'
+INTO TABLE customers
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(customer_id, age, gender, loyalty_member, join_date);
+
+select * from customers limit 5;
+
+-- insert data products
+SET FOREIGN_KEY_CHECKS = 0;
+LOAD DATA LOCAL INFILE 'D:\Dhika Ramadhan Saputra/Data Analist/Full Project/Coklat/data/products.csv'
+INTO TABLE products
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(product_id, product_name, brand, category, cocoa_percent, weight_gram);
+
+select * from products limit 5;
+
+-- insert data stores
+SET FOREIGN_KEY_CHECKS = 0;
+LOAD DATA LOCAL INFILE 'D:\Dhika Ramadhan Saputra/Data Analist/Full Project/Coklat/data/stores.csv'
+INTO TABLE stores
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(store_id, store_name, city, country, store_type);
+
+select * from stores limit 5;
+
+-- insert data sales
+SET FOREIGN_KEY_CHECKS = 0;
+LOAD DATA LOCAL INFILE 'D:\Dhika Ramadhan Saputra/Data Analist/Full Project/Coklat/data/sales.csv'
+INTO TABLE sales
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(order_id, order_date, product_id, store_id, customer_id, quantity, unit_price, discount, revenue, cost, profit);
+
+select * from sales limit 5;
+
+describe products;
+
+

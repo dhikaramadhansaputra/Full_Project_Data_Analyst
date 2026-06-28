@@ -4,25 +4,26 @@ Flow project = bikin DB, ambil data hanya tahun 2024, preparation & analisis di 
 ====================================================
 
 Database:
-(PROSES, belum selese, baru masukin calendar) 1. buat database dan tabelnya (pastikan foreign key nya bener)
-2. muat data
+(DONE) 1. buat database dan tabelnya (pastikan foreign key nya bener)
+(DONE) 2. muat data
 
 ===================
 
 Data preparation:
-1. Ambil data 2024 lewat power BI
-2. DAQ:
- - duplikat
- - tipe data
- - distribusi data
- - missing/null values
+(DONE) 1. Ambil data 2024 lewat power BI
+(DONE) modelling
+
+(DONE) 2. DAQ:
+ (DONE) - duplikat
+ (DONE) - tipe data
+ (DONE) - distribusi data
+ (DONE) - missing/null values
 3. Data remediation (jika diperlukan)
 
 ================================
 
 Visualisasi:
-1. data modelling (ngecek aja kalo belum ya benerin)
-2. Rumuskan halaman dashboard
+(PROSES) 2. Rumuskan halaman dashboard
 3. rumuskan KPI tiap halaman
 4. rumuskan visualiasi tiap halaman
 
