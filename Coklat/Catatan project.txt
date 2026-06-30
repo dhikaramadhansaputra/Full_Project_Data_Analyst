@@ -23,9 +23,62 @@ Data preparation:
 ================================
 
 Visualisasi:
-(PROSES) 2. Rumuskan halaman dashboard
+(DONE) 2. Rumuskan halaman dashboard
+ - Overview
+ - halaman sales
+ - halaman produk
+ - halaman stores
+ - halaman customer
+
 3. rumuskan KPI tiap halaman
-4. rumuskan visualiasi tiap halaman
+ - Overview:
+
+ - halaman sales:
+  - total revenue
+  - total cost
+  - total profit
+  - median/avg discount
+
+ - halaman produk:
+  - total brand
+  - total category
+  - total produk
+  - total produk terjual
+  
+ - halaman stores:
+  - total toko
+  - total negara
+  - total tipe took
+  - total kota
+
+ - Halaman customers:
+  - jumlah customer (orang)
+  - total member loyal
+  - rata-rata umur
+
+4. rumuskan visualiasi tiap halaman:
+ - Overview:
+
+ - halaman sales:
+  - tren revenue vs cost
+  - tren revenue per brand/category
+  - revenue by customer (loyal member, gender), produk (brand, category), stores (city, store type)
+  - revenue by negara
+
+ - halaman produk:
+  - produk terjual by gender, stores (city, store type, negara), loyalty member
+  - tren penjualan (quantity) & brand/category
+
+ - halaman stores:
+  - toko per negara
+  - toko per kota
+  - perbandingan jumlah tipe toko
+
+ - Halaman customers:
+  - jumlah customer by produk (brand, category), stores (city, store type), negara
+  - Gender customer by produk (brand, category), stores (city, store type), negara
+  - Loyal customer by produk (brand, category), stores (city, store type), negara
+  - trend customer
 
 =============================
 
