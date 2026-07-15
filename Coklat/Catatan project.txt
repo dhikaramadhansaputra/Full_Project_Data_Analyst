@@ -31,12 +31,20 @@ Visualisasi:
  - halaman customer
 
 3. rumuskan KPI tiap halaman
- - Overview:
+ (PROSES) - Overview:
+  (DONE) - revenue
+  (DONE) - profit
+  (GADA DATANYA) - profit margin
+  (DONE) - total sales quantity
+  (PROSES) - customer member loyal
+NOTE = untuk tanggal join customer member loyal belum terhubung ke tanggal, jadi masih sendiri sendiri tanggalnya.
+
 
  - halaman sales:
   - total revenue
   - total cost
   - total profit
+  - profit margin
   - median/avg discount
 
  - halaman produk:
@@ -46,7 +54,9 @@ Visualisasi:
   - total produk terjual
   
  - halaman stores:
-  - total toko
+  - total took
+  - rata rata revenue per took
+  - rata rata profit per toko
   - total negara
   - total tipe took
   - total kota
@@ -55,24 +65,32 @@ Visualisasi:
   - jumlah customer (orang)
   - total member loyal
   - rata-rata umur
+  - Average Order Value (AOV) atau rata-rata belanja per transaksi
 
 4. rumuskan visualiasi tiap halaman:
  - Overview:
+  - tren revenue & progit
+  - top performer brand & kategori by revenue
+  - geo top revenue
+  - Komposisi toko
 
  - halaman sales:
   - tren revenue vs cost
   - tren revenue per brand/category
   - revenue by customer (loyal member, gender), produk (brand, category), stores (city, store type)
   - revenue by negara
+  - discount vs profit margin (scatter?)
 
  - halaman produk:
   - produk terjual by gender, stores (city, store type, negara), loyalty member
   - tren penjualan (quantity) & brand/category
+  - top & bottom 5 produk by profit
+  - (belum tau, belajar dulu) Pareto Chart (80/20 rule) untuk melihat apakah 80% revenue perusahaan disumbang oleh 20% produk saja.
 
  - halaman stores:
   - toko per negara
   - toko per kota
-  - perbandingan jumlah tipe toko
+  - perbandingan jumlah tipe toko, sales quantity dan revenue nya
 
  - Halaman customers:
   - jumlah customer by produk (brand, category), stores (city, store type), negara
