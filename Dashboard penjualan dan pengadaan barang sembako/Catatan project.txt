@@ -1,0 +1,24 @@
+Link dataset (raw):
+https://www.kaggle.com/datasets/bejopamungkas/transaksi-pembelian-penjualan-sembako?
+
+=================
+
+Prepcosessing ;
+1. Preprocessing pengadaan
+ (DONE) - DAQ & cleaning:
+  (DONE) - trim
+  (DONE) - duplikat
+  (DONE) - distribusi value
+  (DONE) - missing null
+  (DONE) - Tipe data
+
+2. Preprocessing penjualan
+ (DONE) - DAQ & cleaning:
+  (DONE) - trim
+  (DONE) - duplikat
+  (DONE) - distribusi value
+  (DONE) - missing null
+  (DONE) - Tipe data
+
+Rancang dashboard:
+
