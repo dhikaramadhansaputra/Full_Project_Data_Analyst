@@ -22,23 +22,23 @@ Prepcosessing ;
 
 (DONE) 3. Buat master calendar
 
-(PROSES) 4. Buat data model
+(DONE) 4. Buat data model
 
-5. coba buat sheet khusus pivot pake data model, karna yg biasa pasti auto bikin sheet baru
+(DONE, GA PERLU) 5. coba buat sheet khusus pivot pake data model, karna yg biasa pasti auto bikin sheet baru
 
 
 Rancang dashboard:
 
 KPI:
-- Total jenis barang
+(PROSES) - Total jenis barang
 - total kuantum pengadaan, penjualan
 - Total omset
 
 Visualisasi:
 (DONE) - tren omset
-(PROSES) - tren pengadaan & penjualan
-- tabel pengadaan & penjualan per nama barang
-- top 5 pembeli berdasarkan omset & kuantum (tabel?)
+(DONE) - tren pengadaan & penjualan
+(DONE) - tabel pengadaan & penjualan per nama barang
+(DONE) - top 5 pembeli berdasarkan omset & kuantum (tabel?)
 
 filter:
 - nama barang
