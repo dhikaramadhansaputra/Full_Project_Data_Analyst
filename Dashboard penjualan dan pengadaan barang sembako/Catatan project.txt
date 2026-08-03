@@ -30,9 +30,9 @@ Prepcosessing ;
 Rancang dashboard:
 
 KPI:
-(PROSES) - Total jenis barang
-- total kuantum pengadaan, penjualan
-- Total omset
+(DONE) - total kuantum pengadaan, penjualan
+(DONE) - Total omset
+(DONE) - Persenan Barang Terjual
 
 Visualisasi:
 (DONE) - tren omset
