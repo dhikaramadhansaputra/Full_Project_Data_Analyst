@@ -41,8 +41,10 @@ Visualisasi:
 (DONE) - top 5 pembeli berdasarkan omset & kuantum (tabel?)
 
 filter:
-- nama barang
-- bulan, tahun
+(DONE) - nama barang
+(DONE) - bulan, tahun
 
 
-RAPIKANNNN
+(PROSES) RAPIKANNNN
+
+NOTE : UNTUK FILTER, ITU KEKNYA GA NYAMBUNG KE DATA MODEL, jadi filternya cuma bisa di penjualan, pengadaan blm bisa, next benerin
