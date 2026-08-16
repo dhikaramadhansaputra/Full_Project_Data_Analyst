@@ -47,4 +47,4 @@ filter:
 
 (PROSES) RAPIKANNNN
 
-NOTE : UNTUK FILTER, ITU KEKNYA GA NYAMBUNG KE DATA MODEL, jadi filternya cuma bisa di penjualan, pengadaan blm bisa, next benerin
+(PROSES) NOTE : UNTUK FILTER, ITU KEKNYA GA NYAMBUNG KE DATA MODEL, jadi filternya cuma bisa di penjualan, pengadaan blm bisa, next benerin
